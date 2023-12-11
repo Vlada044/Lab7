@@ -1,0 +1,409 @@
+@media (min-width: 700px) {
+.logo{
+    color: #add270;
+    @import url('https://fonts.cdnfonts.com/css/days-sans-black');
+    font-family: 'Days Sans Black', sans-serif; 
+    font-size: 50px;                                                            
+} 
+.logoimg{
+    background-color:#38352f;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0; 
+}
+.hamburger{
+   display: none;
+}
+.icon{
+    padding-left: 10px;
+    height: 70px;
+}
+body{
+    color: #472d18d3;
+      margin: 0;
+    padding: 0;  
+    background-color: #fbfaf8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    background-color: #4e613b;
+    color: #99bd63;
+  }
+  .menu a:hover{
+    background-color:#465835 ;
+  }
+  .menu{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    background-color:rgb(78, 97, 59);    
+    }
+.photo{
+     color: #472d18; 
+    margin-top: 30px;
+    align-content: center;
+    justify-content: center;
+   display: grid; 
+   grid-template-columns: repeat(3,1fr);
+   grid-template-areas: 
+   "Jack Glori Banny"
+   "Jack-img Glori-img Banny-img"; 
+   grid-column-gap:10px ;
+}
+.Glori-img{
+    grid-area: Glori-img;
+    width: 100%;
+    display: block;
+}
+.Jack-img{
+    width: 100%;
+    grid-area: Jack-img;
+    display: block;
+}
+.Banny-img{
+    width: 100%;
+    grid-area: Banny-img;
+    display: block;
+}
+.Jack{
+    font-size: 28px;
+    grid-area: Jack;
+    text-align: center;
+    
+}
+.Banny{
+    text-align: center;
+    grid-area: Banny;
+    font-size: 28px;
+}
+.Glori{
+    text-align: center;
+    grid-area: Glori;
+    font-size: 28px;
+}
+.img-inf{
+    width: 150px;
+}
+.information{
+    color: #e5e9e6;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    text-align: center;
+    align-items: center;
+     background-image :  url("cute-dog-enjoying-walk-at-daytime-near-the-forest-paint-on-easel-at-background\ \(1\)-photoaidcom-darken.jpg"); 
+} 
+.counter{
+    color: white;
+    filter: none;
+    font-weight: 900;
+    padding-top: 10px;
+    font-size: 58px;
+}  
+.inf-p{
+    font-weight: 400;
+    font-size: 34px;
+}
+article{
+    margin-top: 70px;
+}
+article p{
+    text-indent: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+}
+.help{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+.socialnetwork{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    padding-left: 5px;
+    width: 80px;
+}
+.contact{
+    font-weight: 600;
+    font-size: 26px;
+    display: flex;
+    justify-content: center; 
+}
+.tohelp{
+    font-size: 24px;}
+.tohelp li{
+    list-style-type: none;
+}
+.tohelp li::before{
+    color: #4C9435;
+    padding-right: 5px;
+    content: "●";
+}
+.help-p{
+    display: flex;
+    padding-left: 40px;
+    font-weight: 600;
+    font-size: 26px;
+}
+.foot{
+    height: 120px;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    background-color: #4e613b; 
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "place volonteer"
+    "knowledge influence";
+}
+.foot a{
+    text-decoration: none;
+    color: #99bd63;
+}
+.place{
+    grid-area: place;
+}
+.volonteer{
+    grid-area: volonteer;
+}
+.knowledge{
+    grid-area: knowledge;
+}
+.influence{
+    grid-area: influence;
+}
+.designed{
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: left;
+    background-color:#38352f; 
+    color: #99bd63;
+}
+.designed a{
+    background-color:#38352f; 
+    text-decoration: none;
+    color: #99bd63;
+}
+footer{
+    margin-top: 100px;
+    background-color:#38352f;
+}
+.designed-div{
+height: 40px;
+}
+hr{
+    background-color: #99bd63;
+    color: #99bd63;
+    height: 2px;
+}}
+@media (max-width: 699px) {
+    .logo{
+        color: #add270;
+        @import url('https://fonts.cdnfonts.com/css/days-sans-black');
+        font-family: 'Days Sans Black', sans-serif; 
+        font-size: 40px;                                                            
+    } 
+    .logoimg{
+        background-color:#38352f;
+        display: flex;
+        text-align: center;
+        justify-content: right;
+        align-items: center; 
+        width: 100%;
+        height: 100px;
+        padding: 0; 
+    }
+    .icon{
+        margin-right: 20px;
+        padding-left: 10px;
+        height: 60px;
+    }  
+    body{
+        color: #472d18d3;
+          margin: 0;
+        padding: 0;  
+        background-color: #fbfaf8;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .hamburger {
+        position: absolute;
+         z-index: 2;
+        top: 1.5rem;
+        left: 2em;
+        padding: 14px;
+        background: #add270;
+      }
+      .closeIcon {
+        display: none;
+      }
+      .menu{
+        position: absolute;
+        transform: translateY(-110%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background: #4e613b;
+        list-style: none;
+      }
+      .showMenu {
+        transform: translateY(0);
+      }
+      .menu a{
+       margin-left: 25%;
+        text-decoration: none;
+        font-size: 28px;
+        color: #99bd63;
+    }
+    .photo{
+        margin-top: 70px;
+    }
+      .Banny, .Glori, .Jack{
+        font-size: 32px;
+        text-align: center;
+      }
+     .Banny-img, .Glori-img, .Jack-img{
+        width: 670px;
+     }
+     article{
+        margin-top: 70px;
+    }
+    article p{
+        text-indent: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 26px;
+    }
+    .img-inf{
+        padding-top: 50px;
+        width: 65px;
+    }
+    .information{
+        color: #e5e9e6;
+        display: flex;
+        justify-content: space-around;
+        height: 35vh;
+         text-align: center; 
+        /* align-items: center; */
+         background-image :  url("cute-dog-enjoying-walk-at-daytime-near-the-forest-paint-on-easel-at-background\ \(2\)-photoaidcom-darken.jpg"); 
+    } 
+    .counter{
+        color: white;
+        filter: none;
+        font-weight: 900;
+        padding-top: 10px;
+        font-size: 32px;
+    }  
+    .inf-p{
+        font-weight: 400;
+        font-size: 22px;
+    }
+    .socialnetwork{
+        display: flex;
+        justify-content: center;
+    }
+    .social{
+        padding-left: 5px;
+        width: 60px;
+    }
+    .contact{
+        font-weight: 600;
+        font-size: 26px;
+        display: flex;
+        justify-content: center; 
+    }
+    .contacts{
+        margin-top: 40px;
+    }
+    .tohelp{
+        font-size: 24px;}
+    .tohelp li{
+        margin-left: 2px;
+        padding-top: 5px;
+        list-style-type: none;
+    }
+    .tohelp li::before{
+        color: #4C9435;
+        padding-right: 5px;
+        content: "●";
+    }
+    .help-p{
+        display: flex;
+        padding-left: 40px;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    .foot{
+        height: 120px;
+        align-items: center;
+        padding-left: 15px;
+        font-size: 26px;
+        background-color: #4e613b; 
+        display: grid; 
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "place volonteer"
+        "knowledge influence";
+    }
+    .foot a{
+        text-decoration: none;
+        color: #99bd63;
+    }
+    .place{
+        grid-area: place;
+    }
+    .volonteer{
+        grid-area: volonteer;
+    }
+    .knowledge{
+        grid-area: knowledge;
+    }
+    .influence{
+        grid-area: influence;
+    }
+    .designed{
+        margin-left: 10px;
+        font-size: 18px;
+        text-align: left;
+        background-color:#38352f; 
+        color: #99bd63;
+    }
+    .designed a{
+        background-color:#38352f; 
+        text-decoration: none;
+        color: #99bd63;
+    }
+    footer{
+        margin-top: 100px;
+        background-color:#38352f;
+    }
+    .designed-div{
+    height: 40px;
+    }
+    hr{
+        background-color: #99bd63;
+        color: #99bd63;
+        height: 2px;
+    }
+}
